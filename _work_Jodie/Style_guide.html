@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>P01-Process</title>
+
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <h1>P01 - CandyJP Style Guide</h1>
+    <nav>
+      <ul class="nav-ul">
+        <li class="nav-li">
+          <a href="#interactive_elements" class="nav-li-a">Interactive Elements</a>
+        </li>
+        <li class="nav-li">
+          <a href="#text_elements" class="nav-li-a">Text Elements</a>
+        </li>
+        <li class="nav-li">
+          <a href="#combined_elements" class="nav-li-a">Combined Elements</a>
+        </li>
+        <li class="nav-li">
+          <a href="User-flows.html" class="nav-li-a">User-flows</a>
+        </li>
+        <li class="nav-li">
+          <a href="Style_guide.html" class="nav-li-a">Style Guide</a>
+        </li>
+        <li class="nav-li">
+          <a href="Citations.html" class="nav-li-a">Citations</a>
+        </li>
+      </ul>
+    </nav>
+
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+      <!-- Default Button styling section -->
+      <section>
+
+        <h2>Navigation Button</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button-nav</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <a class="button-nav" href="#">Default Button</a>
+
+      </section>
+
+      <section>
+        <h2>In-text link</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.intext-link</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;p&gt;This is an example of an &lt;a class="intext-link" href="#"&gt;in-text link&lt;/a&gt;.&lt;/p&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <p>This is an example of an <a class="intext-link" href="#">in-text link</a>.</p>
+
+      </section>
+
+      <section>
+        <h2>Submit/Reset Buttons</h2>
+
+        <h3>CSS selector:</h3>
+
+        <p>.button-submit</p>
+        <p>.button-reset</p>
+
+        <h3>Sample code:</h3>
+
+        <code>&lt;a href="#" class="button-submit"&gt;Submit&lt;/a&gt;</code>
+        <code>&lt;a href="#" class="button-reset"&gt;Reset&lt;/a&gt;</code>
+
+        <h3>Rendered element:</h3>
+
+        <a class="button-submit" href="#">Submit</a>
+        <a class="button-reset" href="#">Reset</a>
+
+      </section>
+
+      <section>
+        <h2>Text Input Field</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.input-text</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;form action="#"&gt;&lt;label for="input"&gt;Input: &lt;/label&gt;&lt;input type="text" id="input" placeholder="placeholder"&gt;&lt;/form></code>
+
+        <h3>Rendered element:</h3>
+        <form action="#"><label for="input">Input: </label><input type="text" id="input" placeholder="placeholder"></form>
+      </section>
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+      <section>
+        <h2>Headings</h2>
+        <div class="seperate-headings">
+          <h3>CSS selector:</h3>
+          <p>h1</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;h1&gt;h1 heading&lt;/h1&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <h1>h1 heading</h1>
+        </div>
+
+        <div class="seperate-headings">
+          <h3>CSS selector:</h3>
+          <p>h2</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;h2&gt;h2 heading&lt;/h2&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <h2>h2 heading</h2>
+        </div>
+        <div class="seperate-headings">
+          <h3>CSS selector:</h3>
+          <p>h3</p>
+
+          <h3>Sample code:</h3>
+          <code>&lt;h3&gt;h3 heading&lt;/h3&gt;</code>
+
+          <h3>Rendered element:</h3>
+          <h3>h3 heading</h3>
+        </div>
+      </section>
+
+      <section>
+        <h2>Paragraphs</h2>
+        <h3>CSS selector:</h3>
+        <p>p</p>
+
+        <h3>Sample code:</h3>
+        <code>&lt;p&gt;Paragraph Text&lt;p&gt;</code>
+
+        <h3>Rendered element:</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eros tortor, posuere at consectetur eget, laoreet mollis ipsum. Sed lacinia elit eu laoreet luctus. Aliquam erat volutpat. Praesent aliquam ex turpis, nec aliquam dui venenatis in. Donec et neque ac erat placerat ullamcorper. Curabitur ac eleifend enim. Nunc lobortis dictum augue, sed tristique risus iaculis vestibulum. Fusce ac fringilla dui. Proin mi magna, aliquam ac tincidunt vel, pharetra varius ante. Praesent varius leo mi, quis porta lacus pulvinar in.</p>
+      </section>
+
+      <section>
+        <h2>Bulleted Lists</h2>
+        <h3>CSS selector:</h3>
+        <p>ul</p>
+
+        <h3>Sample code:</h3>
+        <code>
+          &lt;ul&gt;
+            &lt;li&gt;Item 1&lt;/li&gt;
+            &lt;li&gt;Item 2&lt;/li&gt;
+            &lt;li&gt;Item 3&lt;/li&gt;
+          &lt;/ul&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+        <ul>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Numbered Lists</h2>
+        <h3>CSS selector:</h3>
+        <p>ol</p>
+
+        <h3>Sample code:</h3>
+        <code>
+          &lt;ol&gt;
+            &lt;li&gt;Item 1&lt;/li&gt;
+            &lt;li&gt;Item 2&lt;/li&gt;
+            &lt;li&gt;Item 3&lt;/li&gt;
+          &lt;/ol&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+        <ol>
+          <li>Item 1</li>
+          <li>Item 2</li>
+          <li>Item 3</li>
+        </ol>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+      <section>
+        <h2>Main Navigation</h2>
+        <h3>CSS selector:</h3>
+        <p>.nav-ul, .nav-li, .nav-li-a</p>
+
+        <h3>Sample code:</h3>
+        <code>
+          &lt;ul class="nav-ul"&gt;
+            &lt;li class="nav-li"&gt;
+              &lt;a href="#" class="nav-li-a"&gt;Home&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class="nav-li"&gt;
+              &lt;a href="#" class="nav-li-a"&gt;Candy&lt;/a&gt;
+            &lt;/li&gt;
+            &lt;li class="nav-li"&gt;
+              &lt;a href="#" class="nav-li-a"&gt;About&lt;/a&gt;
+            &lt;/li&gt;
+          &lt;/ul&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+        <ul class="nav-ul">
+          <li class="nav-li">
+            <a href="#" class="nav-li-a">Home</a>
+          </li>
+          <li class="nav-li">
+            <a href="#" class="nav-li-a">Candy</a>
+          </li>
+          <li class="nav-li">
+            <a href="#" class="nav-li-a">About</a>
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Product Listing</h2>
+        <h3>CSS selector:</h3>
+        <p>.box, .box-item-image, .box-item-text</p>
+
+        <h3>Sample code:</h3>
+        <code>
+          &lt;div class="box"&gt;
+            &lt;div class="box-item-image"&gt;
+              &lt;img src="http://i.ebayimg.com/images/g/siIAAOSwa~BYcx0o/s-l1600.jpg" alt="Package of blueberry gummy" class="product-resize"&gt;
+            &lt;/div&gt;
+            &lt;div class="box-item-text"&gt;
+              &lt;p> Descriptive Text&lt;/p&gt;
+              &lt;p> &lt;strong&gt;Details:&lt;/strong&gt;40g&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div>
+        </code>
+
+        <h3>Rendered element:</h3>
+        <h2>Kororo Blueberry</h2>
+        <div class="box">
+          <div class="box-item-image">
+            <img src="http://i.ebayimg.com/images/g/siIAAOSwa~BYcx0o/s-l1600.jpg" alt="Package of blueberry gummy" class="product-resize">
+          </div>
+          <div class="box-item-text">
+            <p> UHA Mikakuto Kokoro is a Japanese blueberry flavored gummy.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lacinia, nibh sollicitudin vulputate gravida, diam mauris finibus justo, ac lacinia ipsum ligula in ex. Maecenas mi sem, malesuada vel nulla non, sagittis pulvinar eros. Aliquam eros lectus, imperdiet quis tincidunt sit amet, porta sit amet justo. Suspendisse vehicula augue et imperdiet imperdiet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam porttitor lacinia congue. </p>
+            <p> <strong>Weight:</strong>40g</p>
+            <p> <strong>Dimension:</strong>13/13cm</p>
+            <p> <strong>Price:</strong>$3.55</p>
+          </div>
+      </div>
+      </section>
+      <section>
+
+        <h2>Website Grid Structure</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.grid-structure, .box-header, .box-body, .box-footer</p>
+
+        <h3>Sample code:</h3>
+        <code>
+          &lt;div class="grid-structure"&gt;
+            &lt;div class=box-header&gt;
+              &lt;p&gt;Header&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="box-body"&gt;
+              &lt;p>Body&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="box-footer"&gt;
+              &lt;p&gt;Footer&lt;/p&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+        <div class="grid-structure">
+          <div class=box-header>
+            <p>Header</p>
+          </div>
+          <div class="box-body">
+            <p>Body</p>
+          </div>
+          <div class="box-footer">
+            <p>Footer</p>
+          </div>
+        </div>
+
+      </section>
+      <section>
+
+        <h2>Website Colors</h2>
+
+        <h3>CSS selector:</h3>
+        <p>.button-nav</p>
+
+        <h3>Sample code:</h3>
+        <code>
+          &lt;ul class="web-ul"&gt;
+           &lt;li class="color-47">#474747&lt;/li&gt;
+           &lt;li class="color-f2">#f2f2f2&lt;/li&gt;
+         &lt;/ul&gt;
+        </code>
+
+        <h3>Rendered element:</h3>
+        <ul class="web-ul">
+         <li class="d1">#d1d1d1</li>
+         <li class="FF">#FFF</li>
+         <li class="C4">#C42529</li>
+         <li class="color-4C">#4C1415</li>
+         <li class="color-47">#474747</li>
+         <li class="color-f2">#f2f2f2</li>
+         <li class="color-95">#952326</li>
+         <li class="color-00">#000000</li>
+       </ul>
+
+
+      </section>
+
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+    <!-- Jodie Chang (301219527) -->
+
+
+
+  </body>
+</html>

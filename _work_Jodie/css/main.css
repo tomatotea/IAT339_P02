@@ -1,0 +1,291 @@
+/*
+  STYLE GUIDE STYLING
+  Default styling for the style guide
+*/
+*{
+  box-sizing: border-box;
+}
+body {
+  font-family: "Yuzu-Regular", Arial, sans-serif;
+  font-size: 1.2rem;
+  padding: 1rem;
+  background-color: #f2f2f2;
+}
+h1, h2, h3 {
+  font-family: "Yuzu-Bold", Arial, sans-serif;
+
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3{
+  font-size:1.5rem;
+  padding-bottom: 0.5rem;
+
+}
+section:not([id]) {
+  margin: 1em 0;
+  padding: 1em 0;
+  border-bottom: 0.15em solid #333;
+  border-color: #952326;
+}
+
+/section h2 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+
+section p {
+  margin-top: 0;
+}
+
+nav {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 0.15em solid #333;
+  border-color: #952326;
+}
+
+nav a:hover, nav a:focus {
+  text-decoration: none;
+}
+.wireframes{
+  height:auto;
+  max-width: 1080px;
+}
+.nav-ul{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+
+}
+.nav-li{
+  list-style-type:none;
+  padding: 1em 1em;
+  background-color: #C42529;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+  border: 1px solid #4C1415
+}
+.nav-li-a{
+  color: #FFF;
+  text-decoration: none;
+  font-size:1.1em;
+}
+.nav-li:hover{
+  background-color: #4C1415;
+}
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+  display: block;
+}
+
+ul.citations {
+  margin-left: 0.25em;
+  padding-left: 0.25em;
+}
+
+ul.citations li {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  padding-bottom: 1em;
+}
+
+ul.citations li strong {
+  font-weight: normal;
+  font-style: italic;
+}
+
+cite {
+  font-style: normal;
+}
+
+.seperate-headings{
+  background-color: #d1d1d1;
+}
+.product-resize{
+  height:auto;
+  max-width: 420px;
+}
+/* Website colors */
+.web-ul{
+  list-style-type:none;
+  display:inline;
+}
+.d1{
+  background-color: #d1d1d1;
+  max-width:100px;
+}
+.FF{
+  background-color: #FFF;
+  max-width:100px;
+}
+.C4{
+  background-color: #C42529;
+  max-width:100px;
+}
+.color-4C{
+  background-color: #4C1415;
+  color:#FFF;
+  max-width:100px;
+}
+.color-47{
+  background-color: #474747;
+  max-width:100px;
+}
+.color-f2{
+  background-color: #f2f2f2;
+  max-width:100px;
+}
+.color-95{
+  background-color: #952326;
+  max-width:100px;
+}
+.color-00{
+  background-color: #000000;
+  color:#FFF;
+  max-width:100px;
+}
+/*------------*/
+/* flexbox */
+
+.box{
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+
+	-webkit-justify-content: space-around;
+	-ms-justify-content: space-around;
+	justify-content: space-around;
+}
+.box-item-image {
+
+	-webkit-flex: 3 1 400px;
+	-ms-flex: 3 1 400px;
+	flex: 3 1 400px;
+}
+.box-item-text {
+
+	-webkit-flex: 1 1 18em;
+	-ms-flex: 1 1 18em;
+	flex: 50 1 18em;
+
+	padding: 2rem;
+  background-color: #d1d1d1;
+}
+.grid-structure{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  flex-flow: column;
+}
+.box-header{
+  background-color: #C42529;
+  -webkit-flex: 3 1 auto;
+  -ms-flex: 3 1 auto;
+  flex: 3 1 auto;
+  padding: 3em;
+  text-align:center;
+}
+.box-body{
+  background-color: #4C1415;
+  flex: 2 1 auto;
+  text-align:center;
+  padding:8em;
+}
+.box-footer{
+  background-color: #474747;
+  flex: 2 1 auto;
+  text-align:center;
+  padding: 1em;
+}
+
+/*-------------------------------------*/
+
+/*
+  INTERACTIVE ELEMENTS -------------------
+*/
+
+/* Styling for the navigation button */
+.button-nav {
+  display: inline-block;
+  padding: 1em 1em;
+  color: #FFF;
+  background-color: #C42529;
+  text-decoration: none;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+  border: 1px solid #4C1415
+
+
+}
+
+.button-nav:hover, .button-nav:focus {
+  background-color: #4C1415;
+}
+
+/*Styling for in-text link*/
+.intext-link {
+  color: #C42529;
+}
+.intext-link:hover, .intext-link:focus{
+  color: #4C1415;
+}
+
+/*Styling for form buttons*/
+.button-submit {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #C42529;
+  border-radius: 0.4em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+  border: 1px solid #4C1415
+
+}
+.button-submit:hover, .button-submit:focus {
+  background-color: #4C1415;
+}
+
+.button-reset {
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: #FFF;
+  background-color: #7C7C7C;
+  border-radius: 0.4em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+  border: 1px solid #4C1415
+}
+.button-reset:hover, .button-reset:focus{
+  background-color: #474747;
+}
+
+
+/*
+  TEXT ELEMENTS -------------------
+*/
+
+
+/*Jodie Chang (301219527)*/
+
+/*
+  COMBINED ELEMENTS -------------------
+*/
