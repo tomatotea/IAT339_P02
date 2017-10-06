@@ -25,8 +25,9 @@ cite {
 
 /*style guide*/
 body {
-  font-family: "Roboto", sans-serif;
-  padding: 1rem 4rem;
+  font-family: "Yuzu-Regular", Arial, sans-serif;
+  font-size: 1.2rem;
+  padding: 1rem;
 }
 
 section:not([id]) {
@@ -44,12 +45,6 @@ section code {
   padding: 0.7em 0.8em;
 }
 
-a{
-  text-decoration: none;
-  color: #888888;
-}
-
-
 img {
   max-height: auto;
   max-width: 100%;
@@ -60,12 +55,13 @@ img {
 
 /*In Text Link*/
 .link-intext{
-  color: #6b7e7e;
+  color: #C42529;
   display: inline-block;
+  text-decoration: none;
 }
 
 a:active, a:hover, a:focus {
-  color: #7bb3e7;
+  color: #6b7e7e;
   text-decoration: none;
 }
 
@@ -77,17 +73,24 @@ a:active, a:hover, a:focus {
 
 /* Styling for the navigation button */
 .button-nav {
-  color: #9bc7a4;
+  color: white;
+  border: 0.1em solid #C42529;
+  border-radius: 0.3em;
+  background-color: #C42529;
+  padding: 0.75rem 0.9rem;
+  transition: background-color 0.5s, color 0.5s;
 }
 
 .button-nav:active, .button-nav:hover, .button-nav:focus {
-  color: #7bb3e7;
+  color: #952326;
+  background-color: white;
+  border-color: #952326;
 }
 
 /*Form Button (submit/reset)*/
 .button-submit {
   color: white;
-  background-color: #9bc7a4;
+  background-color: #C42529;
   padding: 0.75rem 0.9rem;
   transition: background-color 0.5s, color 0.5s;
   border: 0.1em solid #FFF;
@@ -95,14 +98,14 @@ a:active, a:hover, a:focus {
 }
 
 .button-submit:active, .button-submit:hover, .button-submit:focus {
-  color: #9bc7a4;
+  color: #C42529;
   background-color: white;
-  border-color: #9bc7a4;
+  border-color: #C42529;
 }
 
 .button-reset {
   color: white;
-  background-color: #a9bd67;
+  background-color: #7C7C7C;
   padding: 0.75rem 0.9rem;
   transition: background-color 0.5s, color 0.5s;
   border: 0.1em solid #FFF;
@@ -110,9 +113,9 @@ a:active, a:hover, a:focus {
 }
 
 .button-reset:active, .button-reset:hover, .button-reset:focus {
-  color: #a9bd67;
+  color: #7C7C7C;
   background-color:  white;
-  border-color: #a9bd67;
+  border-color: #7C7C7C;
 }
 
 /*
@@ -133,20 +136,21 @@ a:active, a:hover, a:focus {
 }
 
 /*headings*/
+h1, h2, h3{
+    font-family: "Yuzu-Bold", Arial, sans-serif;
+}
+
 .heading-1 {
-  font-family: "Slabo";
   font-size: 3rem;
   color: #434343;
 }
 
 .heading-2 {
-  font-family: "Slabo";
   font-size: 2.25rem;
   color: #434343;
 }
 
 .heading-3{
-  font-family: "Roboto";
   font-size: 1rem;
   color: #434343;
   margin-bottom: 0;
@@ -154,7 +158,6 @@ a:active, a:hover, a:focus {
 
 .para {
 font-size: 1rem;
-font-family: "Roboto";
 margin-top: 0;
 }
 
@@ -177,7 +180,7 @@ margin-top: 0;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  border: 0.1em solid #9bc7a4;
+  border: 0.1em solid #C42529;
   border-radius: 0.3em;
 }
 
@@ -185,7 +188,7 @@ margin-top: 0;
   -ms-flex-grow: 1;
   flex-grow: 1;
   text-decoration: none;
-  color:#9bc7a4;
+  color:#C42529;
   padding: 0.75rem 0.9rem;
   transition: background-color 0.5s, color 0.5s;
 }
@@ -279,20 +282,20 @@ margin-top: 0;
     background-color: black;
 }
 
-.box-lightgreen{
-  background-color: #9bc7a4;
+.box-red{
+  background-color: #C42529;
 }
 
-.box-darkgreen{
-  background-color: #a9bd67;
+.box-darkred{
+  background-color: #4C1415;
 }
 
-.box-lightblue{
-  background-color: #7bb3e7;
+.box-darkgrey{
+  background-color: #474747;
 }
 
 .box-lightgrey{
-  background-color: #6b7e7e;
+  background-color: #d1d1d1;
 }
 
 .box-color{
