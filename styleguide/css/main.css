@@ -341,4 +341,8 @@ max-width: 30em;
   .grid {
     display: inline-block;
   }
+  .div-image{
+    margin: 0.5em 25%;
+    min-width: 50%;
+  }
 }
