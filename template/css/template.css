@@ -128,10 +128,32 @@ a:active, a:hover, a:focus {
   border-radius: 0.25em;
   box-sizing: border-box;
   color: #DDDDDD;
+  margin: 0.5rem;
 }
 
 .text-label {
   font-size: 1rem;
+}
+
+.form-container {
+  width: 100%;
+  clear: both;
+  padding: 0rem 2rem;
+}
+
+.form-container input{
+  width: 100%;
+  clear: both;
+}
+.form-container textarea{
+  width: 100%;
+  clear: both;
+  margin-left: 0.5rem;
+}
+.form-container button{
+  margin-left: 0.5rem;
+  margin-top: 0.8rem;
+  padding: 0rem 1rem;
 }
 
 /*headings*/
@@ -222,35 +244,7 @@ max-width: 30em;
 
 .div-text {
     display: inline-block;
-    max-width: 40%;
-}
-.footer-group{
-  width: 100%;
-  display: -ms-flex;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  margin-top: 2rem;
-}
-.footer-fullwidth {
-  width: 100%;
-  vertical-align: text-top;
-  -ms-flex-grow: 1;
-  flex-grow: 1;
-  -ms-flex-shrink: 1;
-  flex-shrink: 1;
-  margin-left: 5rem;
-
-}
-.footer-thirty{
-  vertical-align: text-top;
-  -ms-flex-grow: 1;
-  flex-grow: 1;
-  -ms-flex-shrink: 1;
-  flex-shrink: 1;
-  display: inline-block;
-  margin-right: 5rem;
-  margin-left: 5rem;
+    max-width: 50%;
 }
 
 .footer {
@@ -275,6 +269,7 @@ max-width: 30em;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-bottom: 0rem;
+  padding-top: 1rem;
 }
 
 .grid-fullwidth {
@@ -284,8 +279,21 @@ max-width: 30em;
   flex-grow: 1;
   -ms-flex-shrink: 1;
   flex-shrink: 1;
+  padding: 1rem 2rem;
 
 }
+
+.grid-twenty{
+  vertical-align: text-top;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+  display: inline-block;
+  max-width: 20%;
+  padding: 1rem 2rem;
+}
+
 .grid-thirty{
   vertical-align: text-top;
   -ms-flex-grow: 1;
@@ -293,8 +301,8 @@ max-width: 30em;
   -ms-flex-shrink: 1;
   flex-shrink: 1;
   display: inline-block;
-  margin-right: 5rem;
-  margin-left: 5rem;
+  max-width: 30%;
+  padding: 1rem 2rem;
 }
 
 .grid-forty {
@@ -305,7 +313,26 @@ max-width: 30em;
   flex-shrink: 1;
   max-width: 40%;
   display: inline-block;
+}
 
+.grid-sixty {
+  vertical-align: text-top;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+  max-width: 60%;
+  display: inline-block;
+}
+
+.grid-seventy{
+  vertical-align: text-top;
+  -ms-flex-grow: 1;
+  flex-grow: 1;
+  -ms-flex-shrink: 1;
+  flex-shrink: 1;
+  max-width: 70%;
+  display: inline-block;
 }
 
 .grid-half {
@@ -406,5 +433,16 @@ max-width: 30em;
 @media (max-width: 450px) {
   .nav-item{
       width: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .div-text{
+    max-width: 100%;
+  }
+}
+@media (max-width:800px) {
+  .grid-thirty{
+    max-width: 100%;
   }
 }
