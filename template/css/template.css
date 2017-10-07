@@ -225,6 +225,14 @@ max-width: 30em;
     max-width: 40%;
 }
 
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: white;
+  background-color: #C42529;
+}
+
 /*grid*/
 .grid {
   display: inline-flex;
@@ -242,16 +250,15 @@ max-width: 30em;
 .grid-fullwidth {
   width: 100%;
   text-align: center;
-  padding: 2rem;
+  padding: 1.5rem 0rem;
 
 }
 .grid-thirty{
   -ms-flex-grow: 1;
   flex-grow: 1;
   max-width: 30%;
-  text-align: center;
-  padding: 2rem;
-  margin: 0.5rem 1rem;
+  text-align: left;
+  margin: 0.5rem 3rem;
 }
 
 .grid-seventy {
@@ -336,10 +343,6 @@ max-width: 30em;
   margin: 0.5rem 1rem;
   height:auto;
   max-width: 30%;
-}
-
-.footer {
-  background-color: #C42529;
 }
 
 @media (max-width: 850px){
