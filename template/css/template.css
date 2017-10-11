@@ -440,7 +440,9 @@ max-width: 30em;
 
 /* Header */
 .top-header {
+  display: -ms-flex;
   display: flex;
+  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   color: white;
   background-color: #C42529;
@@ -451,10 +453,12 @@ max-width: 30em;
 
 }
 .title-grid {
+  -ms-flex-grow:2;
   flex-grow: 2;
   padding: 1em;
 }
 .logo-grid{
+  display: -ms-inline-flex;
   display: inline-flex;
   max-width: 5%;
   margin: 1em;
@@ -464,10 +468,12 @@ max-width: 30em;
   width: 50px;
 }
 .search-grid{
+  -ms-flex-grow:0;
   flex-grow: 0;
 }
 /* Products */
 .middle-section{
+  display: -ms-flex;
   display: flex;
 }
 .homepage-products{
