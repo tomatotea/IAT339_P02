@@ -45,8 +45,7 @@ section code {
 }
 
 img {
-  max-height: auto;
-  max-width: 100%;
+  width: 100%;
 }
 
 
@@ -126,9 +125,9 @@ a:active, a:hover, a:focus {
   padding: 0.35rem 0.6rem;
   border: 0.1em solid #DDDDDD;
   border-radius: 0.25em;
-  box-sizing: border-box;
   color: #DDDDDD;
   margin: 0.5rem;
+  max-width: 100%;
 }
 
 .text-label {
@@ -254,6 +253,7 @@ max-width: 30em;
   left: 0;
   color: white;
   background-color: #C42529;
+  border-radius: 0.3em;
 }
 
 /*grid*/
@@ -436,7 +436,34 @@ max-width: 30em;
   max-width: 30%;
 }
 
+/* Header */
+.top-header {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  background-color: #C42529;
+  margin-bottom: 0.25em;
+  padding: 0;
+  align-items:center;
+  border-radius: 0.3em;
 
+}
+.title-grid {
+  flex-grow: 2;
+  padding: 1em;
+}
+.logo-grid{
+  display: inline-flex;
+  max-width: 5%;
+  margin: 1em;
+}
+.logo-grid img {
+  height: 100%;
+  width: 50px;
+}
+.search-grid{
+  flex-grow: 0;
+}
 
 @media (max-width: 1000px) {
   .div-text{
@@ -489,12 +516,19 @@ max-width: 30em;
   .button-submit{
     width: 100%;
     clear: both;
-    padding: 0.5rem 1rem; 
+    padding: 0.5rem 1rem;
   }
 }
 
 @media (max-width: 450px) {
   .nav-item{
       width: 100%;
+  }
+@media (max-width: 417px) {
+  .top-header{
+    padding-left: 2em;
+  }
+  .logo-grid{
+    max-width: 15%;
   }
 }
