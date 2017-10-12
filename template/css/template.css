@@ -156,7 +156,9 @@ a:active, a:hover, a:focus {
   padding: 0rem 1rem;
 }
 .pay-form {
+  display: -ms-flex;
   display: flex;
+  -ms-flex-direction: column;
   flex-direction: column;
   padding:0.5em 2em;
   width:50%;
