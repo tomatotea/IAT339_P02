@@ -208,6 +208,7 @@ h3 {
   font-size: 1.4rem;
   color: #434343;
   margin-bottom: 0;
+  margin-left: 2rem;
 }
 
 .para {
@@ -286,6 +287,10 @@ max-width: 30em;
 }
 
 /*grid*/
+.grid-border {
+  border: 1px solid black;
+  margin: 1rem 0rem 1rem 0rem;
+}
 .grid {
   display: inline-flex;
   -ms-flex-wrap: wrap;
