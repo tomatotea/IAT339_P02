@@ -137,12 +137,14 @@ a:active, a:hover, a:focus {
 .form-container {
   width: 100%;
   clear: both;
-  padding: 0rem 2rem;
 }
 
 .form-container input{
   width: 100%;
   clear: both;
+}
+.form-container label{
+  margin-left: 0.5rem;
 }
 .form-container textarea{
   width: 100%;
@@ -192,8 +194,12 @@ h3 {
   font-size: 1.3em;
 }
 
+.logo{
+  text-decoration: none;
+  color: white;
+}
 .heading-1 {
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   color: #434343;
 }
 
@@ -238,8 +244,7 @@ max-width: 30em;
   flex-wrap: wrap;
   -ms-flex-shrink: 1;
   flex-shrink: 1;
-  border: 0.1em solid #C42529;
-  border-radius: 0.3em;
+
 }
 
 .nav-item {
@@ -284,12 +289,21 @@ max-width: 30em;
   left: 0;
   color: white;
   background-color: #C42529;
+  border-radius: 0.3em;
 }
 
 /*grid*/
 .grid-border {
   border: 1px solid black;
   margin: 1rem 0rem 1rem 0rem;
+  border-radius: 0.3em;
+  border-color: #C42529;
+}
+.grid-headerborder{
+  border: 1.5px solid black;
+  margin: 1rem 0rem 1rem 0rem;
+  border-radius: 0.3em;
+  border-color: #C42529;
 }
 .grid {
   display: inline-flex;
@@ -501,10 +515,8 @@ max-width: 30em;
   flex-wrap: wrap;
   color: white;
   background-color: #C42529;
-  margin-bottom: 0.25em;
   padding: 0;
   align-items:center;
-  border-radius: 0.3em;
 
 }
 .title-grid {
