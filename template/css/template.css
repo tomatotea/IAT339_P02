@@ -91,7 +91,7 @@ a:active, a:hover, a:focus {
 .button-submit {
   color: white;
   background-color: #C42529;
-  padding: 0.75rem 0.9rem;
+  padding: 0.6rem 0.9rem;
   transition: background-color 0.5s, color 0.5s;
   border: 0.1em solid #FFF;
   border-radius: 0.3em;
@@ -106,7 +106,7 @@ a:active, a:hover, a:focus {
 .button-reset {
   color: white;
   background-color: #7C7C7C;
-  padding: 0.75rem 0.9rem;
+  padding: 0.6rem 0.9rem;
   transition: background-color 0.5s, color 0.5s;
   border: 0.1em solid #FFF;
   border-radius: 0.3em;
@@ -313,6 +313,7 @@ h3 {
 .div-text {
     display: inline-block;
     max-width: 50%;
+    word-wrap: break-word;
 }
 
 
@@ -454,6 +455,8 @@ footer .grid-fullwidth{
   vertical-align: text-top;
   -ms-flex-grow: 1;
   flex-grow: 1;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   -ms-flex-shrink: 1;
   flex-shrink: 1;
   max-width: 60%;
@@ -615,7 +618,11 @@ footer .grid-fullwidth{
   height:40em;
   overflow-y: scroll;
 }
-
+@media (max-width: 1476px) {
+  .button-cart {
+    width: 70%;
+  }
+}
 @media (max-width: 1000px) {
   .div-text{
     max-width: 100%;
@@ -629,6 +636,9 @@ footer .grid-fullwidth{
   #amount{
     margin-left: 0;
   }
+  .button-cart {
+    width: 100%;
+  }
 }
 
 @media (max-width: 850px){
@@ -639,11 +649,21 @@ footer .grid-fullwidth{
     margin: 0.5em 25%;
     min-width: 50%;
   }
+  .grid-twenty{
+    max-width: 100%;
+  }
   .grid-thirty{
     max-width: 100%;
   }
+  .grid-sixty{
+    max-width: 100%;
+    margin-left: 2rem;
+  }
   .grid-eighty{
     max-width: 100%;
+  }
+  .button-cart {
+    width: 50%;
   }
 }
 
@@ -681,13 +701,16 @@ footer .grid-fullwidth{
   }
   .grid-sixty{
     max-width: 100%;
-    margin-left: 2.5rem;
+    margin-left: 2rem;
   }
   .grid-seventy{
     max-width: 100%;
   }
   .grid-eighty{
     max-width: 100%;
+  }
+  .button-cart {
+    width: 100%;
   }
 }
 
@@ -699,10 +722,8 @@ footer .grid-fullwidth{
   .top-header{
     padding-left: 1em;
   }
-
   .footer{
     font-size:0.7em;
   }
-
 
 }
