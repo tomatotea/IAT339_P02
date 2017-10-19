@@ -306,6 +306,15 @@ h3 {
   color: white;
   background-color: #C42529;
   border-radius: 0.3em;
+  height:50%;
+  justify-content: center;
+  font-size: 0.8em;
+}
+footer .grid-thirty{
+  padding: 0 3em;
+}
+footer .grid-fullwidth{
+  padding: 0;
 }
 
 /*grid*/
@@ -334,7 +343,18 @@ h3 {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-bottom: 0rem;
-  padding-top: 1rem;
+  padding: 4em;
+
+}
+.footer-grid{
+  position: relative;
+  width: 100%;
+  display: -ms-flex;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
 }
 
 .grid-twenty-product{
