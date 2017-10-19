@@ -11,4 +11,16 @@
 	font-style: normal;
   src: url('../fonts/Yuzu-Bold.ttf') format('truetype');
 }
-/*Jodie Chang (301219527)*/
+
+@font-face {
+	font-family: 'Nunito-Light';
+	font-weight: normal;
+	font-style: normal;
+  src: url('../fonts/Nunito-Light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Nunito-Regular';
+	font-weight: normal;
+	font-style: normal;
+  src: url('../fonts/Nunito-Regular.ttf') format('truetype');
+}

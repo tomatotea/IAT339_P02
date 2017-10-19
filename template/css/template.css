@@ -25,7 +25,7 @@ cite {
 
 /*style guide*/
 body {
-  font-family: "Helvetica", Arial, sans-serif;
+  font-family: "Nunito-Light", Arial, sans-serif;
 }
 
 /*section:not([id]) {
@@ -127,6 +127,8 @@ a:active, a:hover, a:focus {
   border-color: #C42529;;
   color: #DDDDDD;
   margin-bottom: 0.5rem;
+  font-family:"Nunito-Light", Arial, sans-serif;
+  width: 18em;
 }
 
 .text-label {
@@ -261,6 +263,7 @@ h3 {
 }
 
 .nav-item {
+  font-family:"Nunito-Regular", Arial, sans-serif;
   -ms-flex-grow: 1;
   flex-grow: 1;
   text-decoration: none;
@@ -533,9 +536,11 @@ h3 {
 
 }
 .title-grid {
-  -ms-flex-grow:2;
-  flex-grow: 2;
-  padding: 1em;
+  display: flex;
+  -ms-flex-grow:1;
+  flex-grow: 1;
+  padding:0.5em;
+  padding-left:1em;
 }
 .logo-grid{
   display: -ms-inline-flex;
@@ -548,8 +553,13 @@ h3 {
   width: 50px;
 }
 .search-grid{
+  display: -ms-flex;
+  display: flex;
   -ms-flex-grow:0;
   flex-grow: 0;
+  padding-top: 0.5em;
+  padding-right: 1em;
+  padding-left: 1em;
 }
 /* Products */
 .middle-section{
@@ -659,5 +669,6 @@ h3 {
   .footer{
     font-size:0.7em;
   }
+
 
 }
