@@ -544,13 +544,13 @@ h3 {
 }
 .logo-grid{
   display: -ms-inline-flex;
-  display: inline-flex;
-  max-width: 5%;
-  margin: 1em;
+  display: flex;
+  width: 100px;
+  padding-left:0.5em;
 }
 .logo-grid img {
   height: 100%;
-  width: 50px;
+  width: 100px;
 }
 .search-grid{
   display: -ms-flex;
@@ -661,11 +661,9 @@ h3 {
   }
 @media (max-width: 417px) {
   .top-header{
-    padding-left: 2em;
+    padding-left: 1em;
   }
-  .logo-grid{
-    max-width: 15%;
-  }
+
   .footer{
     font-size:0.7em;
   }
