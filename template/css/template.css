@@ -153,7 +153,9 @@ a:active, a:hover, a:focus {
   width: 100%;
   clear: both;
 }
-
+#amount{
+  margin-left: 5rem;
+}
 .form-container input{
   width: 100%;
   clear: both;
@@ -619,6 +621,9 @@ footer .grid-fullwidth{
   }
   .grid-twenty-product{
     max-width: 50%;
+  }
+  #amount{
+    margin-left: 0;
   }
 }
 
