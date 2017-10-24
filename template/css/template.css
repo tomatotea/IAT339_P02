@@ -350,6 +350,7 @@ footer .grid-fullwidth{
 .grid-whitebackground{
   background-color: white;
   padding-left: 1rem;
+  padding-right: 0.5rem;
   padding-bottom: 0.08rem;
 }
 .grid-border {
