@@ -344,6 +344,14 @@ footer .grid-fullwidth{
 }
 
 /*grid*/
+.grid-graybackground{
+  background-color: #f7f7f7;
+}
+.grid-whitebackground{
+  background-color: white;
+  padding-left: 1rem;
+  padding-bottom: 0.08rem;
+}
 .grid-border {
   border: 1px solid black;
   margin: 1rem 0rem 1rem 0rem;
@@ -390,7 +398,7 @@ footer .grid-fullwidth{
   -ms-flex-shrink: 1;
   flex-shrink: 1;
   display: inline-block;
-  max-width: 25%;
+  width: 25%;
   padding: 1rem 2rem;
 
 }
@@ -424,7 +432,7 @@ footer .grid-fullwidth{
   -ms-flex-shrink: 1;
   flex-shrink: 1;
   display: inline-block;
-  max-width: 25%;
+  width: 20%;
   padding: 1rem 2rem;
 }
 
@@ -435,17 +443,17 @@ footer .grid-fullwidth{
   -ms-flex-shrink: 1;
   flex-shrink: 1;
   display: inline-block;
-  max-width: 30%;
+  width: 30%;
   padding: 1rem 2rem;
 }
 
 .grid-forty {
   vertical-align: text-top;
   -ms-flex-grow: 1;
-  flex-grow: 1;
+  flex-grow: 3;
   -ms-flex-shrink: 1;
   flex-shrink: 1;
-  max-width: 40%;
+  width: 40%;
   display: inline-block;
 }
 
@@ -455,7 +463,7 @@ footer .grid-fullwidth{
   flex-grow: 1;
   -ms-flex-shrink: 1;
   flex-shrink: 1;
-  max-width: 50%;
+  width: 50%;
   display: inline-block;
 }
 
@@ -661,14 +669,14 @@ footer .grid-fullwidth{
     max-width: 100%;
   }
   .grid-thirty{
-    max-width: 100%;
+    width: 100%;
   }
   .grid-sixty{
     max-width: 100%;
     margin-left: 2rem;
   }
   .grid-eighty{
-    max-width: 100%;
+    width: 100%;
   }
   .button-cart {
     width: 50%;
@@ -698,11 +706,14 @@ footer .grid-fullwidth{
   .nav-item{
       width: 50%;
   }
+  .grid-group{
+    padding: 0;
+  }
   .grid-twenty-product{
     max-width: 100%;
   }
   .grid-twenty{
-    max-width: 100%;
+    width: 100%;
   }
   .grid-fifty{
     max-width: 100%;
@@ -715,7 +726,8 @@ footer .grid-fullwidth{
     max-width: 100%;
   }
   .grid-eighty{
-    max-width: 100%;
+    width: 100%;
+    margin-left:2rem;
   }
   .button-cart {
     width: 100%;
