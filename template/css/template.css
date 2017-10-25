@@ -59,7 +59,9 @@ hr{
   width: 95%;
 
 }
-
+.style-body{
+  padding-left:1em;
+}
 /* ----INTERACTIVE ELEMENTS---- */
 
 /*In Text Link*/
@@ -401,6 +403,7 @@ footer .grid-fullwidth{
   border-color: #C42529;
   padding-bottom: 2rem;
 }
+
 .grid-headerborder{
   border: 1.5px solid black;
   margin: 1rem 0rem 1rem 0rem;
