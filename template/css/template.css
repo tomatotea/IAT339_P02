@@ -357,9 +357,6 @@ footer .grid-fullwidth{
 .text-center{
   text-align: center;
 }
-#something{
-  text-align: center;
-}
 /*grid*/
 .grid-graybackground{
   background-color: #f7f7f7;
@@ -684,6 +681,12 @@ footer .grid-fullwidth{
   height:40em;
   overflow-y: scroll;
 }
+
+#form-product{
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+
 @media (max-width: 1476px) {
   .button-cart {
     width: 70%;
@@ -711,11 +714,11 @@ footer .grid-fullwidth{
   #grid-aboutUsImage{
     max-width: 50%;
   }
-  #amount{
-    margin-left: 0;
-  }
   .button-cart {
     width: 100%;
+  }
+  #form-product{
+    margin-left: 3.2rem;
   }
 }
 
@@ -744,6 +747,9 @@ footer .grid-fullwidth{
   }
   .button-cart {
     width: 50%;
+  }
+  #form-product{
+    margin-left: 2rem;
   }
 }
 
