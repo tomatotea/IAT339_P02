@@ -344,6 +344,7 @@ h3 {
   font-size: 0.8em;
   text-align: center;
 }
+
 footer .grid-thirty{
   padding: 0 3em;
 }
@@ -686,6 +687,7 @@ footer .grid-fullwidth{
   margin-left: 5rem;
   margin-top: 1rem;
 }
+
 
 @media (max-width: 1476px) {
   .button-cart {
