@@ -251,9 +251,13 @@ h3 {
   padding-left: 0.5em;
   padding-top: 0.3em;
   padding-bottom: 0.1em;
-  margin-top: 0.8em;
+  margin-top: 0;
   background-color: #C42529;
   border-radius: 0.25em;
+}
+
+.grid-border .heading-2{
+  border-radius: 0;
 }
 
 .heading-3{
@@ -395,7 +399,6 @@ footer .grid-fullwidth{
   margin: 1rem 0rem 1rem 0rem;
   border-radius: 0.3em;
   border-color: #C42529;
-  padding-top: 2rem;
   padding-bottom: 2rem;
 }
 .grid-headerborder{
