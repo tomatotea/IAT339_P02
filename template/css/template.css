@@ -171,7 +171,6 @@ a:active, a:hover, a:focus {
   clear: both;
 }
 #amount{
-  margin-left: 5rem;
 }
 .form-container input{
   width: 100%;
@@ -722,6 +721,10 @@ footer .grid-fullwidth{
   #form-product{
     margin-left: 3.2rem;
   }
+  footer .grid-thirty{
+    width: 30%;
+    max-width: 30%;
+  }
 }
 
 @media (max-width: 850px){
@@ -771,6 +774,10 @@ footer .grid-fullwidth{
   }
   .paymethod{
     width:100%;
+  }
+  footer .grid-thirty{
+    width: 100%;
+    max-width: 100%;
   }
 }
 
