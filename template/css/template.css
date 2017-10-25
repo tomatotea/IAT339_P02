@@ -830,7 +830,7 @@ footer .grid-fullwidth{
       width: 50%;
   }
   .grid-group{
-    padding: 0;
+    padding:0;
   }
   .grid-twenty-product{
     width: 100%;
@@ -888,5 +888,15 @@ footer .grid-fullwidth{
   .search-grid .text-input{
     width: 16em;
     margin-left: 0.5em;
+  }
+  .grid-twenty-product{
+    max-width: 100%;
+    width: 100%;
+  }
+  .grid-group .grid-thirty img{
+    margin-top:1em;
+  }
+  .grid-twenty img{
+    margin-top: 1.5em;
   }
 }
