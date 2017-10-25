@@ -68,6 +68,10 @@ hr{
   display: inline-block;
   text-decoration: none;
 }
+.grid-whitebackground .link-intext{
+  padding-top: 0.5em;
+  text-align: center;
+}
 a{
   text-decoration: none;
   color: white;
@@ -152,8 +156,8 @@ a:active, a:hover, a:focus {
   padding: 0.35rem 0.6rem;
   border: 0.05rem solid #DDDDDD;
   border-radius: 0.3em;
-  border-color: #C42529;;
-  color: #DDDDDD;
+  border-color: #C42529;
+  color: black;
   margin-bottom: 0.5rem;
   font-family:"Nunito-Light", Arial, sans-serif;
   width: 18em;
@@ -255,7 +259,6 @@ h3 {
 }
 
 .heading-3{
-  padding-top:1em;
   font-size: 1.4rem;
   color: #434343;
   padding-left: 0.7em;
@@ -292,7 +295,7 @@ h3 {
 }
 
 .nav-item {
-  font-family:"Nunito-Regular", Arial, sans-serif;
+  font-family:"Yuzu-Bold", Arial, sans-serif;
   -ms-flex-grow: 1;
   flex-grow: 1;
   text-decoration: none;
@@ -300,6 +303,8 @@ h3 {
   padding: 0.75rem 0.9rem;
   text-align: center;
   transition: background-color 0.5s, color 0.5s;
+  font-size: 1.3em;
+  border-left: 1px solid #C42529;
 }
 .nav-item:hover, .nav-item:focus {
   background-color: #d1d1d1;
@@ -388,7 +393,7 @@ footer .grid-fullwidth{
   padding: 1rem 2rem;
 }
 .grid-border {
-  border: 1px solid black;
+  border: 0.1em solid black;
   margin: 1rem 0rem 1rem 0rem;
   border-radius: 0.3em;
   border-color: #C42529;
@@ -673,13 +678,47 @@ footer .grid-fullwidth{
 }
 .homepage-products{
   background-color:#f7f7f7;
+  border: 0.1em solid;
+  margin: 0rem 0rem 1rem 0rem;
+  border-radius: 0.3em;
+  border-color: #C42529;
 }
-
+.homepage-products p{
+  margin-top:-0.5em;
+  text-align: center;
+}
+.homepage-products .heading-2{
+  margin-top:0;
+  border-radius:0;
+}
+.homepage-products .grid-thirty{
+  padding:1em;
+}
 .events{
   max-width: 30%;
-  padding-left: 1em;
-  height:40em;
-  overflow-y: scroll;
+  background-color:#f7f7f7;
+  border: 0.1em solid;
+  margin-bottom:1rem;
+  margin-left:1em;
+  border-radius: 0.3em;
+  border-color: #C42529;
+}
+.events img{
+  padding:0.05em;
+}
+.events .heading-2{
+  margin-top:0;
+  border-radius:0;
+}
+
+.bar-button{
+  border: 0.05rem solid #DDDDDD;
+  border-radius: 0.3em;
+  border-top-left-radius: 0em;
+  border-bottom-left-radius: 0em;
+  border-color: #C42529;
+  background-color:white;
+  margin-left: -2em;
 }
 
 #form-product{
