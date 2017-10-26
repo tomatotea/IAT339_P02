@@ -576,8 +576,66 @@
       <h2 class="heading-2">Product View</h2>
       <div class="style-body">
         <h3>CSS selector:</h3>
+        <p>.grid-border</p>
+        <p>.heading-2</p>
+        <p>.grid-group</p>
+        <p>.grid-thirty</p>
+        <p>.grid-forty</p>
+        <p>.div-text</p>
+        <p>.paray</p>
+        <p>#form-product</p>
+
         <h3>Sample code:</h3>
+        <code class="grid">&lt;div class="grid-border"&gt;<br>
+          &lt;h2 class="heading-2"&gt;Lotte Plum Boiled Sweet Candy&lt;/h2&gt;<br>
+          &lt;div class="grid-group"&gt;<br>
+          &lt;div class="grid-thirty"&gt;<br>
+          &lt;img src="img/lotte-plum.jpg" alt="red package plum candy"&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;div class="grid-forty div-text para"&gt;<br>
+          &lt;p&gt;A medium-sized bag of Japanese plum flavoured hard boiled candy. Each spherical sweet has three layers: the outermost layer is plum powder, then there is the sweet boiled candy part and in the middle is a slightly salty soft plum paste. The sweetness of the candy complements perfectly the saltiness and sourness of the plum. Every packet contains two giant versions of the sweet&lt;/p&gt;<br>
+          &lt;p&gt;&lt;strong&gt;Item Number:&lt;/strong&gt;13457&lt;/p&gt;<br>
+          &lt;p&gt;&lt;strong&gt;Weight:&lt;/strong&gt;68g&lt;/p&gt;<br>
+          &lt;p&gt;&lt;strong&gt;Price:&lt;/strong&gt;$4.45&lt;/p&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;div class="grid-thirty"&gt;<br>
+          &lt;form id="form-product"&gt;<br>
+          &lt;label for="amount"&gt;;&lt;strong&gt;Amount:;&lt;/strong&gt;&lt;label&gt;&lt;br&gt;<br>
+          &lt;input class="button-amount" type="text" name="amunt" id="amount" value="1"&gt;&lt;br&gt;<br>
+          &lt;a class="button button-submit" href="shoppingcart.html"&gt;Add to cart&lt;/a&gt;&lt;br&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;/form&gt;<br>
+          &lt;/div&gt;
+        </code>
+
         <h3>Rendered element:</h3>
+        <div class="grid-border">
+          <h2 class="heading-2">Lotte Plum Boiled Sweet Candy</h2>
+          <div class="grid-group">
+            <div class="grid-thirty">
+              <img src="img/lotte-plum.jpg" alt="red package plum candy">
+            </div>
+            <div class="grid-forty div-text para">
+              <p>A medium-sized bag of Japanese plum flavoured hard boiled candy. Each spherical sweet has three layers: the outermost layer is plum powder, then there is the sweet boiled candy part and in the middle is a slightly salty soft plum paste. The sweetness of the candy complements perfectly the saltiness and sourness of the plum. Every packet contains two giant versions of the sweet.</p>
+              <p><strong>Item Number:</strong> 13457</p>
+              <p><strong>Weight:</strong> 68g</p>
+              <p><strong>Price:</strong> $4.45</p>
+            </div>
+
+            <div class="grid-thirty">
+              <form id="form-product">
+                <label for="amount"><strong>Amount:</strong></label>
+                <br>
+                <input class="button-amount" type="text" name="amunt" id="amount" value="1">
+                <br>
+                <a class="button button-submit" href="shoppingcart.html">Add to cart</a>
+                <div>
+              </form>
+            </div>
+
+          </div>
+        </div>
+
       </div>
     </section>
 
