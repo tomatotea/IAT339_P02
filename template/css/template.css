@@ -371,6 +371,9 @@ footer .grid-fullwidth{
 .text-center{
   text-align: center;
 }
+.text-center p{
+  padding: 0em 1em;
+}
 /*grid*/
 .grid-graybackground{
   background-color: #f7f7f7;
