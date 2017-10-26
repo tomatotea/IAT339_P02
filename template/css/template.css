@@ -723,7 +723,11 @@ footer .grid-fullwidth{
   margin-top: 1rem;
 }
 
-
+@media (max-width: 1049px){
+  .homepage-products .grid-thirty{
+    margin-left: 0.7em;
+  }
+}
 @media (max-width: 1476px) {
   .button-cart {
     width: 70%;
@@ -884,6 +888,7 @@ footer .grid-fullwidth{
   .homepage-products .grid-thirty{
     width: 100%;
     max-width: 100%;
+    margin-left: auto;
   }
   .search-grid .text-input{
     width: 16em;
@@ -899,4 +904,5 @@ footer .grid-fullwidth{
   .grid-twenty img{
     margin-top: 1.5em;
   }
+
 }
