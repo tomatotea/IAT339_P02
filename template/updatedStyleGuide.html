@@ -208,10 +208,10 @@
 
           <h3>Rendered element:</h3>
           <nav class="nav-main">
-            <a href="#" class="nav-item">Home</a>
-            <a href="#" class="nav-item">About Us</a>
-            <a href="#" class="nav-item">Products</a>
-            <a href="#" class="nav-item">Shopping Cart</a>
+            <a href="index.html" class="nav-item">Home</a>
+            <a href="aboutus.html" class="nav-item">About Us</a>
+            <a href="candies.html" class="nav-item">Products</a>
+            <a href="shoppingcart.html" class="nav-item">Shopping Cart</a>
           </nav>
         </div>
       </section>
@@ -417,8 +417,51 @@
       <h2 class="heading-2">Header</h2>
       <div class="style-body">
         <h3>CSS selector:</h3>
+        <p>.grid-headerborder</p>
+        <p>.grid-fullwidth</p>
+        <p>.top-header</p>
+        <p>.logo-grid</p>
+        <p>.title-grid</p>
+        <p>.search-grid</p>
+
         <h3>Sample code:</h3>
+        <code class="grid">&lt;div class="grid-headerborder"&gt;<br>
+          &lt;header class="grid-fullwidth top-header&gt;<br>
+          &lt;div class="logo-grid"&gt;<br>
+          &lt;a href="index.html"&gt;<br>
+          &lt;img src="img/jp-logo.png" alt="CandyJP logo, a white candy"&gt;<br>
+          &lt;/a&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;div class="title-grid"&gt;<br>
+          &lt;h1 class="heading-1"&gt;  &lt;ahref="index.html"&gt;CandyJP&lt;a&gt;&lt;/h1&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;div class="search-grid"&gt;<br>
+          &lt;input  class="text-input" type="text" name="search" id="search" placeholder="Search here"&gt;<br>
+          &lt;a href="productView.html"&gt;<br>
+          &lt;input class="bar-button" type="image" name="submit" src="img/search-icon.png" alt="search icon, a magnifier" width="31" height="31"&gt;&lt;/a&gt;<br>
+          &lt;/div&gt;<br>
+          &lt;/header&gt;<br>
+          &lt;/div&gt;
+        </code>
+
         <h3>Rendered element:</h3>
+        <div class="grid-headerborder">
+          <header class="grid-fullwidth top-header">
+            <div class="logo-grid">
+              <a href="index.html">
+                <img src="img/jp-logo.png" alt="CandyJP logo, a white candy">
+              </a>
+            </div>
+            <div class="title-grid">
+              <h1 class="heading-1"><a href="index.html">CandyJP</a></h1>
+            </div>
+            <div class="search-grid">
+              <input class="text-input" type="text" name="search" id="search" placeholder="Search here">
+              <a href="productView.html">
+              <input class="bar-button" type="image" name="submit" src="img/search-icon.png" alt="search icon, a magnifier" width="31" height="31"></a>
+            </div>
+          </header>
+        </div>
       </div>
     </section>
 
@@ -443,12 +486,13 @@
 
         <h3>Sample code:</h3>
         <code class="grid">&lt;footer class="footer-grid footer"&gt;<br>
-          &lt;div&gt; class="grid-thirty"<br>
+          &lt;div class = "grid-thirty" &gt;<br>
           &lt;p&gt;&lt;strong&gt;Address&lt;/strong&gt;&lt;/p&gt;<br>
           &lt;p&gt;1243 545 A Street Vancouver&lt;/p&gt;<br>
           &lt;p&gt;British Columbia, Canada&lt;/p&gt;<br>
-          &lt;div&gt;grid-fullwidth text-center&lt;/div&gt;<br>
+          &lt;div class = "grid-fullwidth text-center"&gt;<br>
           &lt;p&gt;Student project for IAT 339 - Web Design and Development by Jodie Chang and Daphne Hsu&lt;/p&gt;<br>
+          &lt;/div&gt;<br>
           &lt;/div&gt;<br>
           &lt;/footer&gt;
         </code>
