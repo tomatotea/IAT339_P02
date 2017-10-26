@@ -311,6 +311,7 @@ h3 {
   transition: background-color 0.5s, color 0.5s;
   font-size: 1.3em;
   border-left: 1px solid #C42529;
+  border-bottom: 1px solid #C42529;
 }
 .nav-item:hover, .nav-item:focus {
   background-color: #d1d1d1;
