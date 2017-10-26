@@ -342,7 +342,9 @@ h3 {
     padding-right: 2rem;
     padding-left: 2rem;
 }
-
+.right-align{
+  text-align: right;
+}
 .footer {
   position: absolute;
   bottom: 0;
