@@ -213,6 +213,7 @@ a:active, a:hover, a:focus {
   display: -ms-flex;
   display: flex;
   justify-content: center;
+  padding: 0em 1em 0em 1em;
 }
 .paymethod{
   display: -ms-flex;
@@ -672,8 +673,8 @@ footer .grid-fullwidth{
 .middle-section{
   display: -ms-flex;
   display: flex;
-
 }
+
 .homepage-products{
   background-color:#f7f7f7;
   border: 0.1em solid;
@@ -721,6 +722,21 @@ footer .grid-fullwidth{
 #form-product{
   margin-left: 5rem;
   margin-top: 1rem;
+}
+
+
+/*success page*/
+.success-grid{
+  display: -ms-flex;
+  display: flex;
+  flex-direction: column;
+}
+.success-grid img{
+  margin-top:7em;
+}
+
+.success-grid p{
+  margin-bottom: 7em;
 }
 
 <<<<<<< Updated upstream
