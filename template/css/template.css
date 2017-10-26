@@ -723,11 +723,21 @@ footer .grid-fullwidth{
   margin-top: 1rem;
 }
 
+<<<<<<< Updated upstream
 @media (max-width: 1049px){
   .homepage-products .grid-thirty{
     margin-left: 0.7em;
   }
 }
+=======
+.a-productname{
+  margin-top: -1.8rem;
+}
+.div-productinfo{
+  margin-top: -1rem;
+}
+
+>>>>>>> Stashed changes
 @media (max-width: 1476px) {
   .button-cart {
     width: 70%;
