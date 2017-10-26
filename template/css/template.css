@@ -691,6 +691,7 @@ footer .grid-fullwidth{
 }
 .homepage-products .grid-thirty{
   padding:1em;
+  margin-left: 1.3em;
 }
 .events{
   max-width: 30%;
@@ -701,8 +702,7 @@ footer .grid-fullwidth{
   border-radius: 0.3em;
   border-color: #C42529;
 }
-.events img{
-}
+
 .events .heading-2{
   margin-top:0;
   border-radius:0;
