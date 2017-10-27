@@ -445,6 +445,14 @@ footer .grid-fullwidth{
   padding: 1em;
   margin: 0.2em;
 }
+.grid-structure-container .grid-twenty-product{
+  background-color: #888888;
+  text-align: center;
+  padding: 1em;
+  margin: 0.1em;
+  max-width: 24.7%;
+  width: 24.7%;
+}
 .grid-structure-container .grid-half{
   width: auto;
   margin: 0 0.2em;
@@ -489,6 +497,7 @@ footer .grid-fullwidth{
   flex-shrink: 1;
   display: flex;
   width: 25%;
+  max-width: 25%;
   padding: 1rem 2rem;
 }
 
@@ -816,6 +825,10 @@ footer .grid-fullwidth{
     max-width: 50%;
     width: 50%;
   }
+  .grid-structure-container .grid-twenty-product{
+    max-width: 24.5%;
+    width: 24.5%;
+  }
   .grid-thirty{
     width: 50%;
     max-width: 50%;
@@ -855,6 +868,10 @@ footer .grid-fullwidth{
   .grid-twenty{
     max-width: 100%;
     width: 100%;
+  }
+  .grid-structure-container .grid-twenty-product{
+    max-width: 24%;
+    width: 24%;
   }
   .grid-thirty{
     width: 100%;
@@ -910,6 +927,10 @@ footer .grid-fullwidth{
   .grid-twenty-product{
     width: 100%;
   }
+  .grid-structure-container .grid-twenty-product{
+    max-width: 24%;
+    width: 24%;
+  }
   .grid-twenty{
     width: 100%;
   }
@@ -948,11 +969,16 @@ footer .grid-fullwidth{
   .search-grid .text-input{
     width: 16em;
   }
+  .grid-structure-container .grid-twenty-product{
+    max-width: 23%;
+    width: 23%;
+  }
 }
 @media (max-width: 450px) {
   .nav-item{
       width: 100%;
   }
+}
 @media (max-width: 417px) {
   .top-header{
   }
@@ -975,6 +1001,14 @@ footer .grid-fullwidth{
   .grid-twenty-product{
     max-width: 100%;
     width: 100%;
+  }
+  .grid-structure-container .grid-twenty-product{
+    max-width: 23%;
+    width: 23%;
+  }
+  .grid-structure-container .grid-twenty-product{
+    max-width: 24%;
+    width: 24%;
   }
   .grid-group .grid-thirty img{
     margin-top:1em;
