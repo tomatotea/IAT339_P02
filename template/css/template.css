@@ -268,12 +268,14 @@ h3 {
   font-size: 1.4rem;
   color: #434343;
   padding-left: 0.7em;
+  padding-right: 0.7em;
 }
 
 .para {
   font-size: 1rem;
   max-width: 100%;
   padding-left: 1.0em;
+  padding-right: 1.0em;
 }
 
 /*bulleted list*/
@@ -422,6 +424,35 @@ footer .grid-fullwidth{
   display: inline-flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+}
+.grid-structure-container {
+  display: inline-flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.grid-structure-container .grid-fullwidth{
+  background-color: #888888;
+  text-align: center;
+}
+.grid-structure-container .grid-thirty{
+  background-color: #888888;
+  text-align: center;
+  padding: 1em;
+  margin: 0.2em;
+}
+.grid-structure-container .grid-half{
+  width: auto;
+  margin: 0 0.2em;
+}
+.grid-structure-container .grid-group{
+  padding:0;
+}
+.grid-structure-container .grid-seventy{
+  background-color: #888888;
+  padding:1em;
+  margin: 0.2em;
+  width: auto;
+  text-align: center;
 }
 .grid-group{
   position: relative;
@@ -709,7 +740,9 @@ footer .grid-fullwidth{
   border-radius: 0.3em;
   border-color: #C42529;
 }
-
+.events img{
+  padding: 0 1em;
+}
 .events .heading-2{
   margin-top:0;
   border-radius:0;
@@ -785,8 +818,8 @@ footer .grid-fullwidth{
     max-width: 50%;
   }
   .homepage-products .grid-thirty{
-    width: 30%;
-    max-width: 30%;
+    width: 31%;
+    max-width: 31%;
   }
   #grid-aboutUsImage{
     max-width: 50%;
