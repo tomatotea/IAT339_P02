@@ -741,6 +741,7 @@ footer .grid-fullwidth{
 }
 .homepage-products .grid-thirty{
   padding:1em;
+
   /*margin-left: 1.3em;*/
 }
 .events{
@@ -902,6 +903,10 @@ footer .grid-fullwidth{
   .grid-fifty{
     max-width: 100%;
   }
+  .grid-twenty-product{
+    width: 100%;
+    max-width: 100%;
+  }
   .middle-section{
     display:block;
   }
@@ -920,6 +925,11 @@ footer .grid-fullwidth{
     width: 100%;
     max-width: 100%;
   }
+  .homepage-products .grid-thirty{
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+  }
 }
 
 @media (max-width: 550px) {
@@ -928,9 +938,6 @@ footer .grid-fullwidth{
   }
   .grid-group{
     padding:0;
-  }
-  .grid-twenty-product{
-    width: 100%;
   }
   .grid-structure-container .grid-twenty-product{
     max-width: 24%;
@@ -992,15 +999,15 @@ footer .grid-fullwidth{
   }
 }
 @media (min-width: 320px){
+<<<<<<< Updated upstream
   .title-grid{
   }
+=======
+
+>>>>>>> Stashed changes
   .search-grid .text-input{
     width: 18em;
     height: 2.35em;
-  }
-  .grid-twenty-product{
-    max-width: 100%;
-    width: 100%;
   }
   .grid-structure-container .grid-twenty-product{
     max-width: 23%;
