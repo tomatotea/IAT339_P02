@@ -899,6 +899,10 @@ footer .grid-fullwidth{
     max-width: 100%;
     margin-left: auto;
   }
+  .search-grid{
+    justify-content: center;
+  }
+
   .grid-fifty{
     max-width: 100%;
   }
