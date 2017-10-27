@@ -699,7 +699,6 @@ footer .grid-fullwidth{
   -ms-flex-grow:1;
   flex-grow: 1;
   padding:0.5em;
-  justify-content: center;
 }
 
 .title-grid img{
@@ -971,9 +970,7 @@ footer .grid-fullwidth{
     padding: 0 1rem 0 1rem;
   }
 }
-@media (max-width: 500px){
-  .title-grid {
-  }
+@media (max-width: 508px){
   .search-grid {
     justify-content: center;
   }
