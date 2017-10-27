@@ -432,34 +432,37 @@
         <p>.search-grid</p>
 
         <h3>Sample code:</h3>
-        <code class="grid">&lt;div class="grid-headerborder"&gt;<br>
-          &lt;header class="grid-fullwidth top-header&gt;<br>
-          &lt;div class="logo-grid"&gt;<br>
-          &lt;a href="index.html"&gt;<br>
-          &lt;img src="img/jp-logo.png" alt="CandyJP logo, a white candy"&gt;<br>
-          &lt;/a&gt;<br>
-          &lt;/div&gt;<br>
-          &lt;div class="title-grid"&gt;<br>
-          &lt;h1 class="heading-1"&gt;  &lt;ahref="index.html"&gt;CandyJP&lt;a&gt;&lt;/h1&gt;<br>
-          &lt;/div&gt;<br>
-          &lt;div class="search-grid"&gt;<br>
-          &lt;input  class="text-input" type="text" name="search" id="search" placeholder="Search here"&gt;<br>
-          &lt;a href="productView.html"&gt;<br>
-          &lt;input class="bar-button" type="image" name="submit" src="img/search-icon.png" alt="search icon, a magnifier" width="31" height="31"&gt;&lt;/a&gt;<br>
-          &lt;/div&gt;<br>
-          &lt;/header&gt;<br>
+        <code class="grid">
+          &lt;div class="grid-headerborder"&gt;<br>
+            &lt;header class="grid-fullwidth top-header"&gt;<br>
+              &lt;div class="title-grid"&gt;<br>
+                &lt;a href="index.html"&gt;<br>
+                  &lt;img src="img/jp-logo.png" alt="CandyJP logo, a white candy"&gt;<br>
+                &lt;/a&gt;<br>
+                &lt;h1 class="heading-1">&lt;a href="index.html">CandyJP&lt;/a&gt;&lt;/h1&gt;<br>
+              &lt;/div&gt;<br>
+              &lt;div class="search-grid"&gt;<br>
+                &lt;input class="text-input" type="text" name="search" id="search" placeholder="Search here"&gt;<br>
+                &lt;a href="productView.html"&gt;<br>
+                &lt;input class="bar-button" type="image" name="submit" src="img/search-icon.png" alt="search icon, a magnifier" width="31" height="31"&gt;&lt;/a&gt;<br>
+              &lt;/div&gt;<br>
+            &lt;/header&gt;<br>
+            &lt;nav class="nav-main"&gt;<br>
+              &lt;a href="index.html" class="nav-item">Home&lt;/a&gt;<br>
+              &lt;a href="aboutus.html" class="nav-item">About Us&lt;/a&gt;<br>
+              &lt;a href="candies.html" class="nav-item">Products&lt;/a&gt;<br>
+              &lt;a href="shoppingcart.html" class="nav-item">Shopping Cart&lt;/a&gt;<br>
+            &lt;/nav&gt;<br>
           &lt;/div&gt;
         </code>
 
         <h3>Rendered element:</h3>
         <div class="grid-headerborder">
           <header class="grid-fullwidth top-header">
-            <div class="logo-grid">
+            <div class="title-grid">
               <a href="index.html">
                 <img src="img/jp-logo.png" alt="CandyJP logo, a white candy">
               </a>
-            </div>
-            <div class="title-grid">
               <h1 class="heading-1"><a href="index.html">CandyJP</a></h1>
             </div>
             <div class="search-grid">
@@ -468,8 +471,14 @@
               <input class="bar-button" type="image" name="submit" src="img/search-icon.png" alt="search icon, a magnifier" width="31" height="31"></a>
             </div>
           </header>
+
+          <nav class="nav-main">
+            <a href="index.html" class="nav-item">Home</a>
+            <a href="aboutus.html" class="nav-item">About Us</a>
+            <a href="candies.html" class="nav-item">Products</a>
+            <a href="shoppingcart.html" class="nav-item">Shopping Cart</a>
+          </nav>
         </div>
-      </div>
     </section>
 
     <section class="grid-border">
