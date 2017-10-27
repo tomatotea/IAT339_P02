@@ -10,7 +10,7 @@ ul.citations {
 ul.citations li {
   list-style-type: none;
   margin-left: 0;
-  padding-left: 0;
+  padding-left: 0.6em;
   padding-bottom: 1em;
 }
 
