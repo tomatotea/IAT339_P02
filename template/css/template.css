@@ -894,6 +894,11 @@ footer .grid-fullwidth{
 }
 
 @media (max-width: 680px){
+  .homepage-products .grid-thirty{
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+  }
   .grid-fifty{
     max-width: 100%;
   }
@@ -988,11 +993,6 @@ footer .grid-fullwidth{
 }
 @media (min-width: 320px){
   .title-grid{
-  }
-  .homepage-products .grid-thirty{
-    width: 100%;
-    max-width: 100%;
-    margin-left: auto;
   }
   .search-grid .text-input{
     width: 18em;
