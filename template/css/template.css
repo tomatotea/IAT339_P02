@@ -203,6 +203,14 @@ a:active, a:hover, a:focus {
   padding:0.5em 2em;
   width:50%;
 }
+.pay-form h2{
+  border-radius: 0.25em;
+  padding-right: 0.5em;
+}
+.paymethod h2{
+  border-radius: 0.25em;
+  padding-right: 0.5em;
+}
 .pay-button-grid {
   display: -ms-flex;
   display: flex;
@@ -239,7 +247,9 @@ h1, h2, h3{
 h3 {
   font-size: 1.3em;
 }
-
+.style-body h2{
+  border-radius: 0.25em;
+}
 .logo{
   text-decoration: none;
   color: white;
@@ -257,11 +267,6 @@ h3 {
   padding-bottom: 0.1em;
   margin-top: 0;
   background-color: #C42529;
-  border-radius: 0.25em;
-}
-
-.grid-border .heading-2{
-  border-radius: 0;
 }
 
 .heading-3{
