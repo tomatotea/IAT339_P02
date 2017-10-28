@@ -32,12 +32,6 @@ body {
   font-family: "Nunito-Light", Arial, sans-serif;
 }
 
-/*section:not([id]) {
-  margin: 1em 0;
-  padding: 0.5em 0;
-  border-top: 1px solid #333;
-} */
-
 section h3{
   margin-bottom: 1em;
 }
@@ -795,13 +789,6 @@ footer .grid-fullwidth{
   margin-bottom: 7em;
 }
 
-<<<<<<< Updated upstream
-@media (max-width: 1049px){
-  .homepage-products .grid-thirty{
-    margin-left: 0.7em;
-  }
-}
-=======
 .a-productname{
   margin-top: -1.8rem;
 }
@@ -809,12 +796,6 @@ footer .grid-fullwidth{
   margin-top: -1rem;
 }
 
->>>>>>> Stashed changes
-@media (max-width: 1476px) {
-  .button-cart {
-    width: 70%;
-  }
-}
 @media (max-width: 1000px) {
   .div-text{
     max-width: 100%;
@@ -1005,12 +986,6 @@ footer .grid-fullwidth{
   }
 }
 @media (min-width: 320px){
-<<<<<<< Updated upstream
-  .title-grid{
-  }
-=======
-
->>>>>>> Stashed changes
   .search-grid .text-input{
     width: 18em;
     height: 2.35em;
